@@ -16,7 +16,7 @@ coin_buttons.forEach(item => {
         //was this heads or tails:
         let selection_is_heads = (e.target.value == 'Heads') ? 1 : 0;
 
-
+        
         //flip coin:
         let coinflip_is_heads = Math.floor(Math.random() * 2);
 
